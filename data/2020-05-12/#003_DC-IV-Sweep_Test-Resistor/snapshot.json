@@ -1,0 +1,146 @@
+{
+    "loop": {
+        "__class__": "qcodes.loops.ActiveLoop",
+        "sweep_values": {
+            "parameter": {
+                "value": 1.0,
+                "raw_value": 1.0,
+                "ts": "2020-05-12 17:47:21",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "V",
+                "name": "V",
+                "inter_delay": 0,
+                "label": "V_appl",
+                "unit": "V",
+                "post_delay": 0
+            },
+            "values": [
+                {
+                    "first": -1.0,
+                    "last": 1.0,
+                    "num": 201,
+                    "type": "linear"
+                }
+            ]
+        },
+        "delay": 0.001,
+        "actions": [
+            {
+                "value": 1.0,
+                "raw_value": 1.0,
+                "ts": "2020-05-12 17:47:21",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "V",
+                "name": "V",
+                "inter_delay": 0,
+                "label": "V_appl",
+                "unit": "V",
+                "post_delay": 0
+            },
+            {
+                "value": 0.001,
+                "raw_value": 0.001,
+                "ts": "2020-05-12 17:47:21",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "I",
+                "name": "I",
+                "inter_delay": 0,
+                "label": "I_meas",
+                "unit": "A",
+                "post_delay": 0
+            },
+            {
+                "value": 1855.957368647,
+                "raw_value": 1855.957368647,
+                "ts": "2020-05-12 17:47:21",
+                "__class__": "qcodes.instrument.specialized_parameters.ElapsedTimeParameter",
+                "full_name": "t",
+                "name": "t",
+                "inter_delay": 0,
+                "label": "Elapsed time",
+                "unit": "s",
+                "post_delay": 0
+            }
+        ],
+        "then_actions": [],
+        "ts_start": "2020-05-12 17:48:00",
+        "use_threads": false,
+        "ts_end": "2020-05-12 17:48:01"
+    },
+    "__class__": "qcodes.data.data_set.DataSet",
+    "location": "./data/2020-05-12/#003_DC-IV-Sweep_Test-Resistor",
+    "arrays": {
+        "V_set": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 1.0,
+            "full_name": "V",
+            "name": "V",
+            "inter_delay": 0,
+            "label": "V_appl",
+            "unit": "V",
+            "post_delay": 0,
+            "array_id": "V_set",
+            "shape": [
+                201
+            ],
+            "action_indices": [],
+            "is_setpoint": true
+        },
+        "V": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 1.0,
+            "full_name": "V",
+            "name": "V",
+            "inter_delay": 0,
+            "label": "V_appl",
+            "unit": "V",
+            "post_delay": 0,
+            "array_id": "V",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                0
+            ],
+            "is_setpoint": false
+        },
+        "I": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0.001,
+            "full_name": "I",
+            "name": "I",
+            "inter_delay": 0,
+            "label": "I_meas",
+            "unit": "A",
+            "post_delay": 0,
+            "array_id": "I",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                1
+            ],
+            "is_setpoint": false
+        },
+        "t": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 1855.957368647,
+            "full_name": "t",
+            "name": "t",
+            "inter_delay": 0,
+            "label": "Elapsed time",
+            "unit": "s",
+            "post_delay": 0,
+            "array_id": "t",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                2
+            ],
+            "is_setpoint": false
+        }
+    },
+    "formatter": "qcodes.data.gnuplot_format.GNUPlotFormat",
+    "io": "<DiskIO, base_location='/Users/jonaskolzer/Documents/Quantacademy/Tutorial_Code'>"
+}
