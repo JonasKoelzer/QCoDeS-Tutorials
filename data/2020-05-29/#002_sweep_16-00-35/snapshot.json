@@ -1,0 +1,146 @@
+{
+    "loop": {
+        "__class__": "qcodes.loops.ActiveLoop",
+        "sweep_values": {
+            "parameter": {
+                "value": 1.0,
+                "raw_value": 1.0,
+                "ts": "2020-05-29 16:00:30",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "V",
+                "inter_delay": 0,
+                "post_delay": 0,
+                "name": "V",
+                "unit": "V",
+                "label": "V_appl"
+            },
+            "values": [
+                {
+                    "first": -1.0,
+                    "last": 1.0,
+                    "num": 201,
+                    "type": "linear"
+                }
+            ]
+        },
+        "delay": 0.01,
+        "actions": [
+            {
+                "value": 1.0,
+                "raw_value": 1.0,
+                "ts": "2020-05-29 16:00:30",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "V",
+                "inter_delay": 0,
+                "post_delay": 0,
+                "name": "V",
+                "unit": "V",
+                "label": "V_appl"
+            },
+            {
+                "value": 0.001,
+                "raw_value": 0.001,
+                "ts": "2020-05-29 16:00:30",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "I",
+                "inter_delay": 0,
+                "post_delay": 0,
+                "name": "I",
+                "unit": "A",
+                "label": "I_meas"
+            },
+            {
+                "value": 3.718228152999999,
+                "raw_value": 3.718228152999999,
+                "ts": "2020-05-29 16:00:30",
+                "__class__": "qcodes.instrument.specialized_parameters.ElapsedTimeParameter",
+                "full_name": "t",
+                "inter_delay": 0,
+                "post_delay": 0,
+                "name": "t",
+                "unit": "s",
+                "label": "Elapsed time"
+            }
+        ],
+        "then_actions": [],
+        "ts_start": "2020-05-29 16:00:37",
+        "use_threads": false,
+        "ts_end": "2020-05-29 16:00:40"
+    },
+    "__class__": "qcodes.data.data_set.DataSet",
+    "location": "data/2020-05-29/#002_sweep_16-00-35",
+    "arrays": {
+        "V_set": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 1.0,
+            "full_name": "V",
+            "inter_delay": 0,
+            "post_delay": 0,
+            "name": "V",
+            "unit": "V",
+            "label": "V_appl",
+            "array_id": "V_set",
+            "shape": [
+                201
+            ],
+            "action_indices": [],
+            "is_setpoint": true
+        },
+        "V": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 1.0,
+            "full_name": "V",
+            "inter_delay": 0,
+            "post_delay": 0,
+            "name": "V",
+            "unit": "V",
+            "label": "V_appl",
+            "array_id": "V",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                0
+            ],
+            "is_setpoint": false
+        },
+        "I": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0.001,
+            "full_name": "I",
+            "inter_delay": 0,
+            "post_delay": 0,
+            "name": "I",
+            "unit": "A",
+            "label": "I_meas",
+            "array_id": "I",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                1
+            ],
+            "is_setpoint": false
+        },
+        "t": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 3.718228152999999,
+            "full_name": "t",
+            "inter_delay": 0,
+            "post_delay": 0,
+            "name": "t",
+            "unit": "s",
+            "label": "Elapsed time",
+            "array_id": "t",
+            "shape": [
+                201
+            ],
+            "action_indices": [
+                2
+            ],
+            "is_setpoint": false
+        }
+    },
+    "formatter": "qcodes.data.gnuplot_format.GNUPlotFormat",
+    "io": "<DiskIO, base_location='/Users/jonaskolzer/Documents/Quantacademy/QCoDeS Series/QCoDeS-Tutorials'>"
+}
