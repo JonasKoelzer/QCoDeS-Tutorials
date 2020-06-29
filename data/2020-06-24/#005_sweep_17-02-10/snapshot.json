@@ -1,0 +1,232 @@
+{
+    "loop": {
+        "__class__": "qcodes.loops.ActiveLoop",
+        "sweep_values": {
+            "parameter": {
+                "value": 0,
+                "raw_value": 0,
+                "ts": "2020-06-24 17:01:39",
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "V",
+                "unit": "V",
+                "inter_delay": 0,
+                "label": "V_appl_1",
+                "name": "V",
+                "post_delay": 0
+            },
+            "values": [
+                {
+                    "first": -1.0,
+                    "last": 1.0,
+                    "num": 201,
+                    "type": "linear"
+                }
+            ]
+        },
+        "delay": 0.01,
+        "actions": [
+            {
+                "__class__": "qcodes.loops.ActiveLoop",
+                "sweep_values": {
+                    "parameter": {
+                        "value": 0,
+                        "raw_value": 0,
+                        "ts": "2020-06-24 17:01:39",
+                        "__class__": "qcodes.instrument.parameter.Parameter",
+                        "full_name": "V",
+                        "unit": "V",
+                        "inter_delay": 0,
+                        "label": "V_appl_2",
+                        "name": "V",
+                        "post_delay": 0
+                    },
+                    "values": [
+                        {
+                            "first": -1.0,
+                            "last": 1.0,
+                            "num": 201,
+                            "type": "linear"
+                        }
+                    ]
+                },
+                "delay": 0.01,
+                "actions": [
+                    {
+                        "value": 0,
+                        "raw_value": 0,
+                        "ts": "2020-06-24 17:01:39",
+                        "__class__": "qcodes.instrument.parameter.Parameter",
+                        "full_name": "V",
+                        "unit": "V",
+                        "inter_delay": 0,
+                        "label": "V_appl_1",
+                        "name": "V",
+                        "post_delay": 0
+                    },
+                    {
+                        "value": 0,
+                        "raw_value": 0,
+                        "ts": "2020-06-24 17:01:39",
+                        "__class__": "qcodes.instrument.parameter.Parameter",
+                        "full_name": "V",
+                        "unit": "V",
+                        "inter_delay": 0,
+                        "label": "V_appl_2",
+                        "name": "V",
+                        "post_delay": 0
+                    },
+                    {
+                        "value": 0.0,
+                        "raw_value": 0.0,
+                        "ts": "2020-06-24 17:01:39",
+                        "__class__": "qcodes.instrument.parameter.Parameter",
+                        "full_name": "I",
+                        "unit": "A",
+                        "inter_delay": 0,
+                        "label": "I_meas",
+                        "name": "I",
+                        "post_delay": 0
+                    },
+                    {
+                        "value": 32.64286880000009,
+                        "raw_value": 32.64286880000009,
+                        "ts": "2020-06-24 17:01:39",
+                        "__class__": "qcodes.instrument.specialized_parameters.ElapsedTimeParameter",
+                        "full_name": "t",
+                        "unit": "s",
+                        "inter_delay": 0,
+                        "label": "Elapsed time",
+                        "name": "t",
+                        "post_delay": 0
+                    }
+                ],
+                "then_actions": []
+            }
+        ],
+        "then_actions": [],
+        "ts_start": "2020-06-24 17:02:12",
+        "use_threads": false,
+        "ts_end": "2020-06-24 17:04:13"
+    },
+    "__class__": "qcodes.data.data_set.DataSet",
+    "location": "data/2020-06-24/#005_sweep_17-02-10",
+    "arrays": {
+        "V_set": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0,
+            "full_name": "V",
+            "unit": "V",
+            "inter_delay": 0,
+            "label": "V_appl_1",
+            "name": "V",
+            "post_delay": 0,
+            "array_id": "V_set",
+            "shape": [
+                201
+            ],
+            "action_indices": [],
+            "is_setpoint": true
+        },
+        "V_set_0": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0,
+            "full_name": "V",
+            "unit": "V",
+            "inter_delay": 0,
+            "label": "V_appl_2",
+            "name": "V",
+            "post_delay": 0,
+            "array_id": "V_set_0",
+            "shape": [
+                201,
+                201
+            ],
+            "action_indices": [
+                0
+            ],
+            "is_setpoint": true
+        },
+        "V_0": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0,
+            "full_name": "V",
+            "unit": "V",
+            "inter_delay": 0,
+            "label": "V_appl_1",
+            "name": "V",
+            "post_delay": 0,
+            "array_id": "V_0",
+            "shape": [
+                201,
+                201
+            ],
+            "action_indices": [
+                0,
+                0
+            ],
+            "is_setpoint": false
+        },
+        "V_1": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0,
+            "full_name": "V",
+            "unit": "V",
+            "inter_delay": 0,
+            "label": "V_appl_2",
+            "name": "V",
+            "post_delay": 0,
+            "array_id": "V_1",
+            "shape": [
+                201,
+                201
+            ],
+            "action_indices": [
+                0,
+                1
+            ],
+            "is_setpoint": false
+        },
+        "I": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 0.0,
+            "full_name": "I",
+            "unit": "A",
+            "inter_delay": 0,
+            "label": "I_meas",
+            "name": "I",
+            "post_delay": 0,
+            "array_id": "I",
+            "shape": [
+                201,
+                201
+            ],
+            "action_indices": [
+                0,
+                2
+            ],
+            "is_setpoint": false
+        },
+        "t": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "raw_value": 32.64286880000009,
+            "full_name": "t",
+            "unit": "s",
+            "inter_delay": 0,
+            "label": "Elapsed time",
+            "name": "t",
+            "post_delay": 0,
+            "array_id": "t",
+            "shape": [
+                201,
+                201
+            ],
+            "action_indices": [
+                0,
+                3
+            ],
+            "is_setpoint": false
+        }
+    },
+    "formatter": "qcodes.data.gnuplot_format.GNUPlotFormat",
+    "io": "<DiskIO, base_location='/Users/jonaskolzer/Documents/Quantacademy/QCoDeS Series/QCoDeS-Tutorials'>"
+}

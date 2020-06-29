@@ -1,0 +1,13 @@
+instruments: 
+    src3: 
+        type: qcodes.tests.instrument_mocks.DummyInstrument
+        init:
+            gates: {v5, v6}
+        enable_forced_reconnect: true
+        parameters:
+            v5:
+                label: Gate 5
+                unit: V
+                initial_value: 0
+                monitor: true
+            v6: {label: Gate 6 ,unit: V ,initial_value: 0,monitor: true}

@@ -1,0 +1,9 @@
+*.pyc
+.ipynb_checkpoints
+*.egg-info
+__pycache__
+*.egg-info/
+.idea/
+doc/_build
+doc/make.bat
+doc/Makefile
